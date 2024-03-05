@@ -8,7 +8,27 @@
     float: left;
     padding-right: 25px;
   }
- 
+  .pagination {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .pagination a {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #ddd;}
 </style>
 </head>
 <body>
@@ -35,7 +55,7 @@
 
     <main>
       <h1 style = text-align:center> Subject taken</h1>
-      <h2 style="text-align:center"> 1ST YEAR/ 2ND semester </h2>
+      <h2 style="text-align:center"> 2ND YEAR/ 1st semester </h2>
       <table style="width:100%">
         <tr>
           <th>Subjects</th>
@@ -43,39 +63,39 @@
           <th>Units</th>
         </tr>
         <tr>
-          <td>CSIT 3</td>
-          <td>Intermediate programming / programming 2</td>
+          <td>CSIT 4</td>
+          <td>Data Structures and Algorithms</td>
           <td>3</td>
         </tr>
         <tr>
-          <td>ITP 1</td>
-          <td>IT fundamentals</td>
+          <td>ITP3/td>
+          <td>Networking 1 Cisco 1</td>
           <td>3</td>
         </tr>
         <tr>
-          <td>ITP 2</td>
-          <td>Discrete mathematics</td>
+          <td>ITELA</td>
+          <td>Platform Technologies</td>
           <td>3</td>
         </tr>
         <tr>
-          <td>MATH 1 </td>
-          <td>Mathematics in the modern world</td>
+          <td>ITEL2A</td>
+          <td>Object-Oriented Programming</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>HIST 1</td>
+          <td>Readings in Philippine History</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>SOC ECON 1</td>
+          <td>The Contemporary World</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>PE 3 </td>
+          <td>Path Fit 3: Sports</td>
           <td>2</td>
-        </tr>
-        <tr>
-          <td>EP 1</td>
-          <td>English Proficiency - Start I</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <td>PE 2</td>
-          <td>Fitness training</td>
-          <td>2</td>
-        </tr>
-        <tr>
-          <td>NSTP 12L</td>
-          <td>LTS 2</td>
-          <td>3</td>
         </tr>
         <tr>
           <th>Total Units </strong></th>
@@ -86,17 +106,19 @@
       </table>
     </main>
 
-    <div class="pagination">
-   
-      <a href="enrooled.html">&laquo;</a> 
-      <a href="enrooled.html">1</a>
-      <a class="active" href="page1.html">2</a>
-      <a href="page2.html">3</a>
-      <a href="page2.html">&raquo;</a>
-    </div>
-    
+</div>
 
- </div>
+</div>
+
+<div class="pagination">
+   
+  <a href="page1.html">&laquo;</a> 
+  <a href="enrooled.html">1</a>
+  <a href="page1.html">2</a>
+  <a class="active" href="page2.html">3</a>
+  <a href="page2.html">&raquo;</a>
+</div>
+
 <footer>
 <div class="footer">
   <p>© 2023 - 2024 ITP4 | All Rights Reserved</p>
